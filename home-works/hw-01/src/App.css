@@ -1,7 +1,123 @@
-.App {
+#content {
+  background-color: #66CDAA;
+  background-image: -webkit-linear-gradient(45deg,#66CDAA,#FFA07A);
+}
+
+#header {
+  background-color:#d8d8d8;
+  text-align: center;
+  font-size: 28px;
+  font-family: "Times New Roman";
+  box-shadow: 0 1px 10px 3px #888;
+}
+
+#footer {
+  background-color:#d8d8d8;
+  text-align: center;
+  font-family: "Times New Roman";
+  box-shadow: 0 1px 10px 3px #888;
+  margin-top: 10%;
+}
+
+#profile{
+  width: 400px;
+  height: 350px;
+  margin-top: 5%;
+  margin-left: 40%;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  background-color: #66CDAA;
+  text-align: center;
+  /* outline-color: white;
+  outline-style: auto;
+  outline-width: 2px; */
+}
+
+#profile-header{
+  color: white;
+  text-align: center;
+  font-family: "Times New Roman";
+  font-size: 24px;
+}
+
+#hr{
+  border: none;
+  color: white;
+  background-color: white;
+  width: 100px;
+  height: 1px;
+}
+
+#userAvatar{
   text-align: center;
 }
 
+.profile-followers{
+  color: #6E6E6E;
+  text-align: center;
+  font-family: "Times New Roman";
+  font-size: 24px;
+}
+
+.followers{
+  background-color: #FAFAFA;
+  float: left;
+  width: 199px;
+  height: 105px;
+  border-radius: 0 0 0 30px;
+  border-right: 1px solid #d8d8d8;
+}
+
+.following{
+  background-color: #FAFAFA;
+  float: left;
+  width: 200px;
+  height: 105px;
+  border-radius: 0 0 30px 0;
+}
+
+#githubLogo {
+  height: 50px;
+}
+
+#githubLogo a{
+  /* border: 1px solid #ccc; */
+  float: right;
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+#githubLogo img{
+  width: 50px;
+  height: 50px;
+  /* text-align: right;
+  pointer-events: none;
+  float: right;
+  margin-right: 10px; */
+}
+
+#footer{
+  /* height: 30px; */
+  color: #6E6E6E;
+  text-align: center;
+  font-family: "Times New Roman";
+  font-size: 18px;
+}
+
+.footer-freebies{
+  float: left;
+  margin-left: 30px;
+  width: 199px;
+}
+
+.footer-email{
+  float: right;
+  margin-right: 30px;
+  width: 199px;
+}
+
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -26,7 +142,7 @@
 
 .App-link {
   color: #61dafb;
-}
+} */
 
 @keyframes App-logo-spin {
   from {

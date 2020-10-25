@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Стилизаци таблиц в CSS3</title>
+        <style>
+        table {
+            border: 1px solid #ccc;
+            border-spacing: 3px;
+        }
+         
+        td, th{
+            border: solid 1px #ccc;
+        }
+        .collapsed{
+            border-collapse: collapse;
+        }
+        .separated{
+            border-collapse: separate;
+        }
+        </style>
+    </head>
+    <body>
+        <h3>Collapse</h3>
+        <table class="collapsed">
+            <tr><th>Модель</th><th>Производитель</th><th>Цена</th></tr>
+            <tr><td>Lumia 950</td><td>Microsoft</td><td>29900</td></tr>
+            <tr><td>iPhone 6S</td><td>Apple</td><td>52900</td></tr>
+            <tr><td>Nexus 6P</td><td>Huawei</td><td>49000</td></tr>
+        </table>
+        <h3>Separate</h3>
+        <table class="separated">
+            <tr><th>Модель</th><th>Производитель</th><th>Цена</th></tr>
+            <tr><td>G 5</td><td>LG</td><td>44900</td></tr>
+            <tr><td>HTC 10</td><td>HTC</td><td>49900</td></tr>
+            <tr><td>Nexus 5X</td><td>Google/LG</td><td>25000</td></tr>
+        </table>
+    </body>
+</html>
